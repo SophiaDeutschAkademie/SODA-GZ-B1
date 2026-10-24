@@ -356,17 +356,17 @@
    "items": [
     {
      "no": "20",
-     "name": "Tobias",
-     "byline": "Tobias, 29, Linz",
-     "text": "Ich verstehe die Wirte, ehrlich gesagt. Aber ich bin oft beruflich unterwegs und esse allein – da lese ich beim Essen Nachrichten oder telefoniere kurz mit meiner Freundin. Soll ich stattdessen die Wand anstarren? Wer andere stört, den kann der Wirt auch so bitten, leiser zu sein. Mehr braucht es doch nicht.",
-     "answer": "N"
-    },
-    {
-     "no": "21",
      "name": "Sabine",
      "byline": "Sabine, 44, Bochum",
      "text": "Als wir neulich in Italien waren, hat der Kellner die Handys der Kinder in einer Kiste gesammelt – und was soll ich sagen: Wir haben zwei Stunden gelacht und geredet wie seit Jahren nicht. Zu Hause schaffen wir das nicht freiwillig. Manchmal braucht es eben eine Regel von außen.",
      "answer": "J"
+    },
+    {
+     "no": "21",
+     "name": "Tobias",
+     "byline": "Tobias, 29, Linz",
+     "text": "Ich verstehe die Wirte, ehrlich gesagt. Aber ich bin oft beruflich unterwegs und esse allein – da lese ich beim Essen Nachrichten oder telefoniere kurz mit meiner Freundin. Soll ich stattdessen die Wand anstarren? Wer andere stört, den kann der Wirt auch so bitten, leiser zu sein. Mehr braucht es doch nicht.",
+     "answer": "N"
     },
     {
      "no": "22",
