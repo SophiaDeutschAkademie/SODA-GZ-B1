@@ -9,6 +9,8 @@
 | `build-digital.py` | `data`와 `template.html`을 합쳐 저장소 루트의 `digital.html`을 만듭니다. 음원 길이는 저장소의 MP3에서 읽습니다 |
 | `validate.py` | `data/mtN.json` 형식 검사 |
 | `logo-small.png` | 시험 화면 왼쪽 위 로고 |
+| `fonts/pretendard-soda.woff` | 시험 화면 글꼴 Pretendard 중 화면에 쓰는 글자만 담은 파일(SIL OFL 1.1, `fonts/Pretendard-OFL.txt`) |
+| `make-font.py` | 화면에 새 한글 문구를 넣어 글자가 빠지면 Pretendard 원본에서 글꼴 파일을 다시 만듭니다 |
 
 ## 다시 만들기
 

@@ -7,13 +7,15 @@
 <meta name="robots" content="noindex,nofollow">
 <title>Goethe B1 digital — Sophia Deutsch Akademie</title>
 <style>
+/* Pretendard (SIL Open Font License 1.1, digital-src/fonts/Pretendard-OFL.txt), Teilmenge mit den hier verwendeten Zeichen */
+@font-face{font-family:"Pretendard SODA";src:url(data:font/woff;base64,__UI_FONT__) format("woff");font-weight:45 930;font-style:normal;font-display:swap}
 :root{
   --bg:#e7eaee;--panel:#fff;--bar:#f5f6f8;--line:#cbd2da;--line-2:#e2e6eb;
   --ink:#1b2430;--ink-2:#434f5e;--muted:#68727f;
   --acc:#1d6a56;--acc-2:#165443;--acc-w:#e3f0eb;--acc-line:#93c4b2;
   --warn:#a8322a;--warn-w:#fbecea;--mark:#ffe680;
   --fs:16px;
-  --font:Arial,"Helvetica Neue",Helvetica,"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
+  --font:"Pretendard SODA",Pretendard,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
 }
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
@@ -93,7 +95,7 @@ h1,h2,h3,h4,p,ul,ol{margin:0}
 .pb.mk ::selection{background:var(--mark)}
 mark.hl{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
 .pb.mk mark.hl{cursor:pointer}
-.inst{font-style:italic;color:var(--ink-2);margin-bottom:16px}
+.inst{color:var(--ink-2);font-weight:500;margin-bottom:16px}
 .inst+.inst{margin-top:-8px}
 .ctx{margin-bottom:16px;padding:12px 14px;background:#f6f8f9;border-left:3px solid var(--line);border-radius:0 4px 4px 0}
 .h1t{font-size:calc(var(--fs)*1.15);font-weight:700;margin-bottom:10px}
@@ -105,16 +107,13 @@ mark.hl{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
 .blog h3,.art h3{font-size:1.3em;line-height:1.25;margin-bottom:10px}
 .blog p,.art p,.doc p{margin:0 0 .75em}
 .blog .cl{margin-top:.6em}
-.art .lead{font-style:italic;color:var(--ink-2);margin-bottom:12px}
-.art .src{text-align:right;font-size:.85em;font-style:italic;color:var(--muted);margin-top:8px}
+.art .lead{font-weight:600;color:var(--ink-2);margin-bottom:12px}
+.art .src{text-align:right;font-size:.85em;color:var(--muted);margin-top:8px}
 .art .fn{font-size:.85em;color:var(--muted);margin-top:8px}
 /* ---------- Anzeigen (Lesen Teil 3): jede Anzeige mit eigenem Layout ---------- */
-/* Handschrift für einzelne Anzeigen: Caveat, SIL Open Font License 1.1 (digital-src/fonts/Caveat-OFL.txt) */
-@font-face{font-family:"SODA Hand";src:url(data:font/woff;base64,__HAND_FONT__) format("woff");font-weight:400 800;font-style:normal;font-display:swap}
 .ads{display:grid;grid-template-columns:repeat(auto-fill,minmax(262px,1fr));gap:20px 18px;align-items:start;
-  --ad-sans:Arial,"Helvetica Neue",Helvetica,sans-serif;--ad-serif:Georgia,"Times New Roman","Noto Serif",serif;
-  --ad-mono:"Courier New",Courier,ui-monospace,monospace;--ad-hand:"SODA Hand","Segoe Print","Bradley Hand","Chalkboard SE","Noteworthy",cursive;
-  --ad-cond:"Arial Narrow","Roboto Condensed","Helvetica Neue",Arial,sans-serif}
+  --ad-sans:var(--font);--ad-serif:var(--font);--ad-hand:var(--font);--ad-cond:var(--font);
+  --ad-mono:var(--font)}
 .adw{min-width:0}
 .adl{display:flex;align-items:flex-end;gap:8px;font-weight:800;font-size:1.05em;line-height:1;margin:0 0 7px;color:var(--ink)}
 .adl::after{content:"";flex:1;border-bottom:1px solid #8a9099;margin-bottom:2px}
@@ -139,8 +138,8 @@ mark.hl{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
 .d-inst .af{font-weight:700}
 /* serif */
 .d-serif{background:#f3f2ee;border:1px solid #b9b6ad;padding:18px 20px 14px;font-family:var(--ad-serif)}
-.d-serif h4{text-align:center;font-size:1.22em}
-.d-serif .su{font-style:italic;text-align:center;border-bottom:1px solid #444;padding-bottom:8px;margin:8px 0 14px}
+.d-serif h4{text-align:center;font-size:1.42em;font-weight:300;letter-spacing:-.02em}
+.d-serif .su{font-weight:600;text-align:center;border-bottom:1px solid #444;padding-bottom:8px;margin:8px 0 14px}
 .d-serif .af{font-family:var(--ad-sans);font-size:.8em;color:#3a3a3a}
 /* dashed */
 .d-dashed{border:1.5px dashed #444;padding:16px 18px 0}
@@ -155,7 +154,7 @@ mark.hl{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
 .d-barhead .in{padding:14px 16px 12px}
 /* rules */
 .d-rules{border-top:3px solid #111;border-bottom:3px solid #111;padding:16px 6px 12px;font-family:var(--ad-serif)}
-.d-rules h4{font-style:italic;font-size:1.45em;text-align:center;margin:0}
+.d-rules h4{font-weight:800;font-size:1.5em;letter-spacing:-.02em;text-align:center;margin:0}
 .d-rules .su{text-align:center;font-family:var(--ad-sans);font-size:.72em;letter-spacing:.17em;text-transform:uppercase;margin:6px 0 14px}
 .d-rules .af{text-align:center;border-top:1px solid #111;padding-top:8px;margin:14px 18px 0;font-family:var(--ad-sans);font-size:.8em}
 /* inverse */
@@ -168,7 +167,7 @@ mark.hl{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
 .d-classified{border-top:2.5px solid #111;border-bottom:1px solid #8a8a8a;padding:9px 2px 10px}
 .d-classified .ah{display:flex;justify-content:space-between;gap:10px;font-size:.76em;font-weight:700;letter-spacing:.15em;text-transform:uppercase;border-bottom:1px solid #111;padding-bottom:7px;margin-bottom:12px}
 .d-classified .ah span{font-weight:400}
-.d-classified p:not(.af){font-family:var(--ad-serif);text-align:justify;-webkit-hyphens:auto;hyphens:auto}
+.d-classified p:not(.af){text-align:justify;-webkit-hyphens:auto;hyphens:auto}
 .d-classified .lead{font-family:var(--ad-sans)}
 .d-classified .af{font-size:.78em}
 /* mono */
@@ -176,14 +175,14 @@ mark.hl{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
 .d-mono .mh{display:flex;justify-content:space-between;align-items:center;gap:10px;border-bottom:1px solid #333;padding-bottom:7px;margin-bottom:11px}
 .d-mono .mh b{font-size:1.06em}
 .d-mono .mh svg{width:22px;height:22px;flex:none}
-.d-mono .ft,.d-mono p.mt{font-family:var(--ad-mono)}
-.d-mono p.mt{font-size:.9em;line-height:1.5;color:#2a2a2a}
+.d-mono .ft,.d-mono p.mt{font-variant-numeric:tabular-nums}
+.d-mono p.mt{font-size:.94em;line-height:1.6;color:#2a2a2a;letter-spacing:.01em}
 .d-mono .af{font-weight:700}
 /* tearoff */
 .d-tearoff{border:1px solid #333}
 .d-tearoff .in{padding:16px 16px 12px}
 .d-tearoff .hd{font-weight:700;font-size:.82em;letter-spacing:.06em;margin-bottom:4px}
-.d-tearoff h4{font-family:var(--ad-cond);font-stretch:condensed;font-weight:800;font-size:1.42em;line-height:1.08;text-transform:uppercase;margin-bottom:.5em}
+.d-tearoff h4{font-weight:900;letter-spacing:-.02em;font-size:1.42em;line-height:1.08;text-transform:uppercase;margin-bottom:.5em}
 .d-tearoff .af{font-weight:700}
 .d-tearoff .tear{display:flex;border-top:1.5px dashed #444}
 .d-tearoff .tear i{flex:1;display:flex;align-items:center;justify-content:center;min-height:92px;border-left:1.5px dashed #444;font-style:normal}
@@ -191,11 +190,11 @@ mark.hl{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
 .d-tearoff .tear span{writing-mode:vertical-rl;transform:rotate(180deg);font-size:.66em;font-weight:700;white-space:nowrap;letter-spacing:.02em}
 /* chalk */
 .d-chalk{background:#6f5d48;padding:9px;border-radius:4px}
-.d-chalk .bd{background:#2c3833;color:#f3f3ee;padding:18px 16px 14px;text-align:center;font-family:var(--ad-hand);font-size:1.18em;line-height:1.45;border-radius:2px;box-shadow:inset 0 0 34px rgba(0,0,0,.4)}
+.d-chalk .bd{background:#2c3833;color:#f3f3ee;padding:18px 16px 14px;text-align:center;font-weight:300;line-height:1.55;border-radius:2px;box-shadow:inset 0 0 34px rgba(0,0,0,.4)}
 .d-chalk .hd{font-size:.86em;opacity:.85;margin-bottom:2px}
-.d-chalk h4{font-size:1.55em;font-weight:700;margin:0;line-height:1.15}
+.d-chalk h4{font-size:1.5em;font-weight:600;letter-spacing:-.01em;margin:0;line-height:1.15}
 .d-chalk .su{text-decoration:underline wavy rgba(243,243,238,.75);text-underline-offset:7px;margin:2px 0 16px}
-.d-chalk p{line-height:1.45}
+.d-chalk p{line-height:1.55}
 .d-chalk .af{opacity:.9}
 /* corp */
 .d-corp{border:1px solid #333;padding:12px 16px}
@@ -209,7 +208,7 @@ mark.hl{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
 .d-hotel .fr{border:1px solid #333;padding:14px 16px 12px;text-align:center;font-family:var(--ad-serif)}
 .d-hotel .st{letter-spacing:.32em;font-size:.82em;margin-bottom:2px}
 .d-hotel .hic{display:block;width:30px;height:30px;margin:0 auto 6px}
-.d-hotel h4{font-variant:small-caps;font-weight:400;letter-spacing:.07em;font-size:1.32em;margin:0}
+.d-hotel h4{font-weight:300;letter-spacing:.16em;text-transform:uppercase;font-size:1.12em;margin:0}
 .d-hotel .ti{margin:4px 0 10px}
 .d-hotel .fr>p:not(.st):not(.ti):not(.af){margin-top:10px}
 .d-hotel .af{font-family:var(--ad-sans);font-size:.78em;letter-spacing:.06em}
@@ -230,7 +229,7 @@ mark.hl{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
 /* logo */
 .d-logo{border:1px solid #333;padding:14px 16px 12px}
 .d-logo .lg{display:flex;align-items:center;gap:12px;margin-bottom:13px}
-.d-logo .cir{width:44px;height:44px;border:1.5px solid #222;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--ad-serif);font-style:italic;font-size:1.4em;flex:none}
+.d-logo .cir{width:44px;height:44px;border:1.5px solid #222;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:300;font-size:1.35em;flex:none}
 .d-logo .cir svg{width:24px;height:24px}
 .d-logo .nm b{display:block;font-weight:400;letter-spacing:.2em;text-transform:uppercase;font-size:1.08em;line-height:1.25}
 .d-logo .nm small{display:block;font-size:.66em;letter-spacing:.22em;text-transform:uppercase;color:#555}
@@ -263,7 +262,7 @@ mark.hl{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
 /* postcard */
 .d-postcard{border:1px solid #333;padding:14px}
 .d-postcard .pc{display:grid;grid-template-columns:minmax(0,1fr) 88px;gap:12px}
-.d-postcard h4{font-family:var(--ad-hand);font-weight:600;font-size:1.75em;line-height:1.1;margin-bottom:12px}
+.d-postcard h4{font-weight:300;font-size:1.6em;line-height:1.15;letter-spacing:-.02em;margin-bottom:12px}
 .d-postcard .side{border-left:1px solid #555;padding-left:12px;display:flex;flex-direction:column;gap:12px}
 .d-postcard .stp{border:1.5px dashed #444;text-align:center;padding:8px 4px;font-weight:800;line-height:1.1}
 .d-postcard .stp small{display:block;font-size:.6em;letter-spacing:.06em;text-transform:uppercase}
@@ -288,14 +287,14 @@ mark.hl{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
 .d-timetable .bar{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#1c1c1c;color:#fff;padding:9px 14px}
 .d-timetable .bar span{font-size:.74em;letter-spacing:.12em;white-space:nowrap}
 .d-timetable .in{padding:12px 14px}
-.d-timetable .tt{border-top:1.5px dashed #555;margin-top:12px;padding-top:8px;font-family:var(--ad-mono);font-size:.78em;line-height:1.65;color:#2a2a2a}
+.d-timetable .tt{border-top:1.5px dashed #555;margin-top:12px;padding-top:8px;font-size:.84em;line-height:1.7;color:#2a2a2a;font-variant-numeric:tabular-nums}
 .d-timetable .pr{text-align:right;font-weight:800;margin:12px 0 0}
 /* bignum */
 .d-bignum{border:1px solid #333;padding:14px 16px}
-.d-bignum h4{font-family:var(--ad-serif);font-style:italic;font-weight:400;font-size:1.32em;text-align:right;margin-bottom:12px}
+.d-bignum h4{font-weight:300;font-size:1.32em;letter-spacing:-.01em;text-align:right;margin-bottom:12px}
 .d-bignum .bn2{display:grid;grid-template-columns:auto minmax(0,1fr);gap:14px;align-items:center}
 .d-bignum .num{text-align:center;padding-right:14px;border-right:1.5px solid #222}
-.d-bignum .num b{display:block;font-family:var(--ad-serif);font-size:3.2em;line-height:1;font-weight:700}
+.d-bignum .num b{display:block;font-size:3.2em;line-height:1;font-weight:800;letter-spacing:-.04em}
 .d-bignum .num small{display:block;letter-spacing:.2em;font-size:.7em;font-weight:700;margin-top:4px}
 .d-bignum .af{font-weight:700}
 /* route */
@@ -323,7 +322,7 @@ mark.hl{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
 .d-rounded .su{font-size:.7em;letter-spacing:.22em;text-transform:uppercase;margin:3px 0 13px}
 .d-rounded .af{font-weight:700}
 /* dropcap */
-.d-dropcap{border-top:2px solid #111;border-bottom:1px solid #111;padding:9px 2px 10px;font-family:var(--ad-serif)}
+.d-dropcap{border-top:2px solid #111;border-bottom:1px solid #111;padding:9px 2px 10px}
 .d-dropcap .ah{display:flex;justify-content:space-between;gap:10px;font-family:var(--ad-sans);font-size:.72em;font-weight:700;letter-spacing:.16em;text-transform:uppercase;padding-bottom:8px;margin-bottom:12px}
 .d-dropcap .ah span{font-weight:400}
 .d-dropcap .dc{text-align:justify;-webkit-hyphens:auto;hyphens:auto}
@@ -341,7 +340,7 @@ mark.hl{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
 .d-greyband .af{font-weight:700}
 /* club */
 .d-club{border:1.5px solid #2c5e3f}
-.d-club .cb{background:#2c5e3f;color:#fff;padding:12px 16px;font-family:var(--ad-serif);font-style:italic;font-weight:700;font-size:1.26em;border-bottom:5px solid #fff;box-shadow:0 5px 0 #2c5e3f}
+.d-club .cb{background:#2c5e3f;color:#fff;padding:12px 16px;font-weight:800;letter-spacing:-.01em;font-size:1.2em;border-bottom:5px solid #fff;box-shadow:0 5px 0 #2c5e3f}
 .d-club .in{padding:16px 16px 12px}
 .d-club h4{color:#1f4a31}
 /* speech */
@@ -352,7 +351,7 @@ mark.hl{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
 /* notebook */
 .d-notebook{border:1px solid #9fb4c6;padding:12px 14px 12px 38px;line-height:1.65em;background:#fff repeating-linear-gradient(to bottom,transparent 0,transparent calc(1.65em - 1px),#d3e2ef calc(1.65em - 1px),#d3e2ef 1.65em);background-position:0 12px}
 .d-notebook::before{content:"";position:absolute;left:26px;top:0;bottom:0;border-left:1.5px solid #9fb4c6}
-.d-notebook h4{font-family:var(--ad-hand);font-weight:700;font-size:1.45em;line-height:1.1379em;margin:0}
+.d-notebook h4{font-weight:700;font-size:1.2em;line-height:1.375em;margin:0}
 .d-notebook p{margin:0 0 1.65em}
 .d-notebook .ti{margin:0}
 .d-notebook .af{font-size:1em;margin:0;font-weight:700}
@@ -370,7 +369,7 @@ mark.hl{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
 .cm .n{font-weight:700;color:var(--ink-2);font-size:.95em;padding-top:1px}
 .cm .bsp{display:block;font-size:.72em;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
 .cm p{margin:0}
-.cm .by{text-align:right;font-style:italic;color:var(--muted);font-size:.9em;margin-top:4px}
+.cm .by{text-align:right;color:var(--muted);font-size:.9em;margin-top:4px}
 .doc h3{text-align:center;font-size:1em;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--line-2)}
 .doc .dh{font-weight:700}
 

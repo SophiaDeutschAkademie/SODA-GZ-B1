@@ -26,6 +26,18 @@ def duration(path):
     return round(float(out), 2)
 
 
+def check_glyphs(font_path, text):
+    """Warnt, wenn Zeichen fehlen (dann neu erzeugen: python3 digital-src/make-font.py PretendardVariable.ttf)."""
+    try:
+        from fontTools.ttLib import TTFont
+    except ImportError:
+        return
+    cmap = TTFont(font_path).getBestCmap()
+    missing = sorted({c for c in text if ord(c) >= 0x20 and ord(c) not in cmap and not c.isspace()})
+    if missing:
+        print("Hinweis: Diese Zeichen fehlen in fonts/pretendard-soda.woff und erscheinen in der Systemschrift:", "".join(missing))
+
+
 def strip_notes(obj):
     if isinstance(obj, dict):
         return {k: strip_notes(v) for k, v in obj.items() if k != "notes"}
@@ -67,11 +79,13 @@ def main():
     data = data.replace("</", "<\\/")
     logo = base64.b64encode(open(os.path.join(HERE, "logo-small.png"), "rb").read()).decode()
     src = open(os.path.join(HERE, "template.html"), encoding="utf-8").read()
-    hand = base64.b64encode(open(os.path.join(HERE, "fonts", "caveat-600.woff"), "rb").read()).decode()
-    for ph in ("__EXAM_DATA__", "__LOGO_DATA_URI__", "__HAND_FONT__"):
+    font_path = os.path.join(HERE, "fonts", "pretendard-soda.woff")
+    font = base64.b64encode(open(font_path, "rb").read()).decode()
+    check_glyphs(font_path, src + data)
+    for ph in ("__EXAM_DATA__", "__LOGO_DATA_URI__", "__UI_FONT__"):
         if src.count(ph) != 1:
             sys.exit(f"Platzhalter {ph} kommt {src.count(ph)}x vor")
-    html = src.replace("__EXAM_DATA__", data).replace("__LOGO_DATA_URI__", "data:image/png;base64," + logo).replace("__HAND_FONT__", hand)
+    html = src.replace("__EXAM_DATA__", data).replace("__LOGO_DATA_URI__", "data:image/png;base64," + logo).replace("__UI_FONT__", font)
     out = a.out or os.path.join(a.repo, "digital.html")
     open(out, "w", encoding="utf-8").write(html)
     print(f"geschrieben: {out} ({len(html.encode('utf-8')) / 1024:.0f} KB), Modelltests: {', '.join(sorted(tests))}, build {build}")
