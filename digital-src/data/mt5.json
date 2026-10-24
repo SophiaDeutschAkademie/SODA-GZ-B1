@@ -540,7 +540,7 @@
       {
        "no": "3",
        "type": "rf",
-       "text": "Heute Abend kann Frau Brenner das Paket von Herrn Wolf selbst bekommen.",
+       "text": "Herr Wolf kann Frau Brenner das Paket heute Abend persönlich geben.",
        "answer": "F"
       },
       {
@@ -750,7 +750,7 @@
     },
     {
      "no": "25",
-     "text": "Nicht alle Kinder bekommen zu Hause Unterstützung.",
+     "text": "Manche Eltern arbeiten abends oder sprechen kaum Deutsch.",
      "answer": "a"
     },
     {

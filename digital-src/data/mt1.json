@@ -155,7 +155,7 @@
   },
   "t3": {
    "instruction": "Lesen Sie die Situationen 13 bis 19 und die Anzeigen a bis j aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Die Anzeige aus dem Beispiel können Sie nicht mehr verwenden. Für eine Situation gibt es keine passende Anzeige. In diesem Fall schreiben Sie 0.",
-   "context": "Einige Ihrer Kolleginnen und Kollegen möchten nach der Arbeit etwas Neues lernen und suchen passende Angebote.",
+   "context": "Einige Ihrer Bekannten möchten in ihrer Freizeit etwas Neues lernen und suchen passende Angebote.",
    "example": {
     "no": "0",
     "text": "Ayşe hat von ihrer Oma eine Nähmaschine bekommen und möchte endlich selbst etwas nähen.",
@@ -379,7 +379,7 @@
      "no": "23",
      "name": "Hanna",
      "byline": "Hanna, 19, Bern",
-     "text": "Meiner Generation wird das Handy immer wieder vorgeworfen. Trotzdem: Wenn ich mit Freunden essen gehe und alle nur auf ihr Display gucken, nervt es mich auch. Ich fände es gut, wenn ein Lokal das deutlich sagen würde – dann weiß man vorher, worauf man sich einlässt, und geht bewusst dorthin.",
+     "text": "Meiner Generation wird das Handy immer wieder vorgeworfen. Trotzdem: Wenn ich mit Freunden essen gehe und alle nur auf ihr Display gucken, nervt es mich auch. Ich fände es gut, wenn ein Lokal Handys am Tisch verbieten würde – dann weiß man vorher, worauf man sich einlässt, und geht bewusst dorthin.",
      "answer": "J"
     },
     {
@@ -481,7 +481,7 @@
      "options": {
       "a": "ist Ballspielen überall erlaubt.",
       "b": "darf man mitgebrachte Geräte an die Steckdose anschließen.",
-      "c": "sind Getränke nur in Plastik- oder Metallflaschen erlaubt."
+      "c": "darf man keine Getränke in Glasflaschen mitbringen."
      },
      "answer": "c"
     }
@@ -665,7 +665,7 @@
      "options": {
       "a": "kann man sich noch am Morgen anmelden.",
       "b": "ist passendes Schuhwerk vorgeschrieben.",
-      "c": "sollte man Proviant einpacken."
+      "c": "ist man den ganzen Tag unterwegs."
      },
      "answer": "b"
     },
