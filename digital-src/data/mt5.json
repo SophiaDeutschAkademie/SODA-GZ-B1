@@ -643,11 +643,11 @@
      "no": "12",
      "stem": "Fotos …",
      "options": {
-      "a": "sind in einem Raum nicht erlaubt.",
-      "b": "darf man nur auf der Bühne machen.",
+      "a": "darf man nur auf der Bühne machen.",
+      "b": "sind in einem Raum nicht erlaubt.",
       "c": "sind im ganzen Theater verboten."
      },
-     "answer": "a"
+     "answer": "b"
     },
     {
      "no": "13",

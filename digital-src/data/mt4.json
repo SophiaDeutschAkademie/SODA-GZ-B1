@@ -25,8 +25,8 @@
    "items": [
     {
      "no": "1",
-     "text": "Die Idee, in einem Chor zu singen, kam nicht von Daniel selbst.",
-     "answer": "R"
+     "text": "Daniel wollte schon lange in einem Chor singen.",
+     "answer": "F"
     },
     {
      "no": "2",
@@ -40,8 +40,8 @@
     },
     {
      "no": "4",
-     "text": "Weil er krank war, hat Daniel beim Konzert nicht mitgesungen.",
-     "answer": "F"
+     "text": "Beim Konzert konnte Daniel trotz der Erkältung mitsingen.",
+     "answer": "R"
     },
     {
      "no": "5",
@@ -715,8 +715,8 @@
     },
     {
      "no": "22",
-     "text": "Die ehemalige Klassenlehrerin wird nicht zum Treffen kommen.",
-     "answer": "F"
+     "text": "Die frühere Klassenlehrerin wird beim Treffen dabei sein.",
+     "answer": "R"
     }
    ]
   },

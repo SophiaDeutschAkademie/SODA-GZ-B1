@@ -184,13 +184,13 @@
     },
     {
      "no": "17",
-     "text": "Jan repariert in seiner Freizeit alte Elektrogeräte und Fahrräder.",
-     "answer": "j"
+     "text": "Frau Krieg ist wenig mobil und sucht eine Aufgabe für zu Hause.",
+     "answer": "0"
     },
     {
      "no": "18",
-     "text": "Frau Krieg ist wenig mobil und sucht eine Aufgabe für zu Hause.",
-     "answer": "0"
+     "text": "Jan repariert in seiner Freizeit alte Elektrogeräte und Fahrräder.",
+     "answer": "j"
     },
     {
      "no": "19",
@@ -390,17 +390,17 @@
     },
     {
      "no": "25",
-     "name": "Hanna",
-     "byline": "Hanna, 29, Wien",
-     "text": "Für mich hängt alles am Geld: vier Tage ja, aber nicht mit zwanzig Prozent weniger im Portemonnaie. Bleibt der Lohn gleich, bin ich sofort dabei. Mein Kollege hat es privat schon gerechnet – ohne die Fahrten zur Arbeit spart man am fünften Tag ohnehin. Vier Tage arbeiten und den vollen Lohn bekommen: Das wäre für mich in Ordnung.",
-     "answer": "J"
-    },
-    {
-     "no": "26",
      "name": "Thomas",
      "byline": "Thomas, 41, Passau",
      "text": "Nach vier langen Tagen bin ich abends zu müde für die Kinder. Ich hätte lieber fünf kürzere Tage, dann sehe ich sie jeden Nachmittag. Freie Freitage helfen mir wenig, wenn die Woche vorher aus Zehn-Stunden-Tagen besteht. Meine Frau arbeitet ohnehin im Schichtdienst, da passt das schon heute kaum zusammen.",
      "answer": "N"
+    },
+    {
+     "no": "26",
+     "name": "Hanna",
+     "byline": "Hanna, 29, Wien",
+     "text": "Für mich hängt alles am Geld: vier Tage ja, aber nicht mit zwanzig Prozent weniger im Portemonnaie. Bleibt der Lohn gleich, bin ich sofort dabei. Mein Kollege hat es privat schon gerechnet – ohne die Fahrten zur Arbeit spart man am fünften Tag ohnehin. Vier Tage arbeiten und den vollen Lohn bekommen: Das wäre für mich in Ordnung.",
+     "answer": "J"
     }
    ]
   },

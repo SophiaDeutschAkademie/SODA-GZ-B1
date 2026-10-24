@@ -362,17 +362,17 @@
     },
     {
      "no": "21",
-     "name": "Nadine",
-     "byline": "Nadine, 31, Graz",
-     "text": "Bei uns war die Innenstadt an einem Sonntag im Herbst zum ersten Mal gesperrt. Meine Kinder sind mitten auf der Hauptstraße Roller gefahren, und ich habe zum ersten Mal die Fassaden angeschaut. Sogar die Wirte haben ihre Tische auf die Straße gestellt. Am Montag habe ich im Rathaus die Liste für eine dauerhafte Sperrung unterschrieben.",
-     "answer": "J"
-    },
-    {
-     "no": "22",
      "name": "Halil",
      "byline": "Halil, 38, Bochum",
      "text": "Erst muss der Bus alle zehn Minuten fahren, auch abends, auch am Wochenende. Ich wohne zwanzig Kilometer außerhalb, und nach 20 Uhr fährt dort gar nichts mehr. Dann kann man über eine Sperrung reden. Umgekehrt geht es nicht: Wer heute die Autos aussperrt, sperrt die Leute aus den Vororten aus. Bis dahin: nein.",
      "answer": "N"
+    },
+    {
+     "no": "22",
+     "name": "Nadine",
+     "byline": "Nadine, 31, Graz",
+     "text": "Bei uns war die Innenstadt an einem Sonntag im Herbst zum ersten Mal gesperrt. Meine Kinder sind mitten auf der Hauptstraße Roller gefahren, und ich habe zum ersten Mal die Fassaden angeschaut. Sogar die Wirte haben ihre Tische auf die Straße gestellt. Am Montag habe ich im Rathaus die Liste für eine dauerhafte Sperrung unterschrieben.",
+     "answer": "J"
     },
     {
      "no": "23",
