@@ -202,6 +202,7 @@
    "ads": [
     {
      "letter": "a",
+     "design": "postcard",
      "header": "",
      "tag": "ab 19 € PRO NACHT",
      "title": "Grüße von der Ostsee!",
@@ -214,6 +215,7 @@
     },
     {
      "letter": "b",
+     "design": "badge",
      "header": "SANKT PETER-ORDING · NORDSEE",
      "tag": "ab 140 € pro Nacht",
      "title": "Ferienhaus Dünenblick",
@@ -229,6 +231,7 @@
     },
     {
      "letter": "c",
+     "design": "timetable",
      "header": "",
      "tag": "FR – MO",
      "title": "Bahnwochenende Allgäu",
@@ -245,6 +248,7 @@
     },
     {
      "letter": "d",
+     "design": "bignum",
      "header": "",
      "tag": "12 TAGE",
      "title": "Nordland-Kreuzfahrt",
@@ -257,6 +261,7 @@
     },
     {
      "letter": "e",
+     "design": "route",
      "header": "",
      "tag": "8 TAGE",
      "title": "Elbe-Radreisen",
@@ -271,6 +276,7 @@
     },
     {
      "letter": "f",
+     "design": "pinned",
      "header": "",
      "tag": "",
      "title": "Nationalpark Harz sucht Helfer",
@@ -283,6 +289,7 @@
     },
     {
      "letter": "g",
+     "design": "rounded",
      "header": "",
      "tag": "",
      "title": "RUHE",
@@ -295,6 +302,7 @@
     },
     {
      "letter": "h",
+     "design": "dropcap",
      "header": "SPRACHREISEN SOL",
      "tag": "SALAMANCA",
      "title": "",
@@ -307,6 +315,7 @@
     },
     {
      "letter": "i",
+     "design": "coupon",
      "header": "",
      "tag": "",
      "title": "Sprachcamp Costa Brava",
@@ -319,6 +328,7 @@
     },
     {
      "letter": "j",
+     "design": "greyband",
      "header": "",
      "tag": "",
      "title": "Dresden ohne Hindernisse",

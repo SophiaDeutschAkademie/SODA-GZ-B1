@@ -91,6 +91,47 @@ The press texts are printed in **two columns**: read the whole left column first
 ```
 Exactly 10 ads a–j. All ad fields except `letter` are optional (use `""` or `[]`). Use the fields to keep the visible structure: `header` = organisation/brand name, `tag` = small label (e.g. `STELLENANGEBOT`, `AUSBILDUNG`), `title` = main bold heading, `subtitle`, `facts` = short detail lines (times, prices, dates), `body` = running text paragraphs, `footer` = contact line(s) (several contacts joined with ` · `). Every piece of information printed in the ad must end up somewhere.
 
+### Optional: ad layouts (`design`, `deco`)
+
+Each ad may carry `"design"` (layout name) and `"deco"` (layout options). Use a different layout for every ad of one Modelltest; the text fields stay the same. Without `design` the app picks layouts in a fixed rotation.
+
+| design | look | uses |
+|---|---|---|
+| `inst` | institution card, header line with tag, facts as table | course, school |
+| `serif` | grey paper, serif type, italic subtitle | workshop, craft |
+| `dashed` | dashed frame, price/contact strip at the bottom | course with price |
+| `barhead` | black header bar (optional `deco.icon`) | business |
+| `rules` | thick rules top and bottom, centred serif title | restaurant, culture |
+| `inverse` | dark background, white type | club, youth, tech |
+| `classified` | newspaper classified, justified serif, bold lead | small ad |
+| `mono` | typewriter body, facts as table (optional `deco.icon`) | practice, repair |
+| `tearoff` | flyer with tear-off phone strips (`deco.strip`, else phone from footer) | notice board |
+| `chalk` | chalkboard, handwriting | café, school |
+| `corp` | company wordmark, thin rules | job offer |
+| `hotel` | double frame, small caps (`deco.stars` or `deco.icon`) | hotel, museum |
+| `band` | grey band with big tag word | training, service |
+| `stamp` | round badge with the tag | offer with condition |
+| `logo` | round initial logo (or `deco.icon`) | salon, association |
+| `browser` | browser window (`deco.url`, `deco.button`) | online offer |
+| `stripes` | diagonal stripes top and bottom | urgent job, emergency |
+| `ticket` | ticket with side stub (`deco.stub`) | cinema, event |
+| `postcard` | postcard, handwritten title, price stamp from tag | holiday |
+| `badge` | black price box from tag, square bullets for facts | holiday home |
+| `timetable` | black bar, timetable lines from facts, price | train trip |
+| `bignum` | big number from tag (`12 TAGE`) | cruise, course length |
+| `route` | route line from a fact `A – B – C` | cycling tour |
+| `pinned` | pinned paper note | volunteer, community |
+| `rounded` | rounded thick frame, spaced capitals (optional `deco.icon`) | camping, pets |
+| `dropcap` | classified with drop cap | language school |
+| `coupon` | dashed coupon with scissors | camp, cleaning |
+| `greyband` | grey title band | travel agency, tutoring |
+| `club` | green-white club band | sports club |
+| `speech` | speech-bubble title | language café |
+| `notebook` | lined paper, handwritten title | tutoring |
+| `sign` | dark enamel sign (optional `deco.icon`) | shop |
+
+Icons for `deco.icon`: `bus`, `columns`, `paw`, `key`, `wrench`, `note`, `plug`.
+
 ### t4 – Leserkommentare, Ja/Nein, items 20–26
 ```json
 "t4": {

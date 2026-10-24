@@ -194,6 +194,20 @@ def validate(path):
             v.text(f"{w}.facts[{i}]", s)
         for i, s in enumerate(a.get("body") or []):
             v.text(f"{w}.body[{i}]", s)
+    DESIGNS = {"inst", "serif", "dashed", "barhead", "rules", "inverse", "classified", "mono", "tearoff", "chalk", "corp", "hotel",
+               "band", "stamp", "logo", "browser", "stripes", "ticket", "postcard", "badge", "timetable", "bignum", "route", "pinned",
+               "rounded", "dropcap", "coupon", "greyband", "club", "speech", "notebook", "sign"}
+    ICONS = {"bus", "columns", "paw", "key", "wrench", "note", "plug"}
+    dz = [a.get("design") for a in ads if a.get("design")]
+    for a in ads:
+        dsg = a.get("design")
+        if dsg and dsg not in DESIGNS:
+            v.err(f"lesen.t3.ads.{a.get('letter')}.design", f"unbekanntes Layout {dsg!r}")
+        ic = (a.get("deco") or {}).get("icon")
+        if ic and ic not in ICONS:
+            v.err(f"lesen.t3.ads.{a.get('letter')}.deco.icon", f"unbekanntes Symbol {ic!r}")
+    if len(dz) != len(set(dz)):
+        v.warn("lesen.t3.ads", f"Layout mehrfach verwendet: {dz}")
     summary["L3"] = " ".join(str(a) for a in used) + f"  (Bsp. {ex.get('answer')})"
 
     # ---- Lesen t4

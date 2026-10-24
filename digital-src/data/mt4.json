@@ -202,6 +202,7 @@
    "ads": [
     {
      "letter": "a",
+     "design": "tearoff",
      "header": "",
      "tag": "",
      "title": "FERIENJOB AUF DEM ERDBEERFELD!",
@@ -214,6 +215,7 @@
     },
     {
      "letter": "b",
+     "design": "chalk",
      "header": "",
      "tag": "",
      "title": "Café Kornblume",
@@ -226,6 +228,7 @@
     },
     {
      "letter": "c",
+     "design": "corp",
      "header": "NordKontakt GmbH",
      "tag": "STELLENANGEBOT",
      "title": "Kundenberater/-in (m/w/d) in Vollzeit",
@@ -238,6 +241,10 @@
     },
     {
      "letter": "d",
+     "design": "hotel",
+     "deco": {
+      "stars": 4
+     },
      "header": "",
      "tag": "",
      "title": "Hotel am Schlossgarten",
@@ -250,6 +257,7 @@
     },
     {
      "letter": "e",
+     "design": "band",
      "header": "Gärtnerei Grünwerk",
      "tag": "AUSBILDUNG",
      "title": "Gärtner/-in (m/w/d) · Beginn 1. August",
@@ -262,6 +270,7 @@
     },
     {
      "letter": "f",
+     "design": "stamp",
      "header": "",
      "tag": "Erst ab 18",
      "title": "Wir stellen ein!",
@@ -274,6 +283,7 @@
     },
     {
      "letter": "g",
+     "design": "logo",
      "header": "",
      "tag": "",
      "title": "HAARWERK",
@@ -286,6 +296,11 @@
     },
     {
      "letter": "h",
+     "design": "browser",
+     "deco": {
+      "url": "apotheke-am-markt.de/jobs",
+      "button": "Jetzt bewerben"
+     },
      "header": "APOTHEKE AM MARKT · KARRIERE",
      "tag": "",
      "title": "Botenfahrer/-in auf Minijob-Basis",
@@ -298,6 +313,7 @@
     },
     {
      "letter": "i",
+     "design": "stripes",
      "header": "",
      "tag": "",
      "title": "FAHRER/-IN GESUCHT!",
@@ -310,6 +326,10 @@
     },
     {
      "letter": "j",
+     "design": "ticket",
+     "deco": {
+      "stub": "EINTRITT · Nr. 0418"
+     },
      "header": "",
      "tag": "",
      "title": "CAPITOL",

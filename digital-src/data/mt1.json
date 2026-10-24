@@ -201,6 +201,7 @@
    "ads": [
     {
      "letter": "a",
+     "design": "inst",
      "header": "Volkshochschule Nord",
      "tag": "FRÜHJAHR",
      "title": "Spanisch für die Reise – Mexiko, Kuba, Spanien",
@@ -216,6 +217,7 @@
     },
     {
      "letter": "b",
+     "design": "serif",
      "header": "Nähwerkstatt Faden & Knopf",
      "tag": "",
      "title": "",
@@ -228,6 +230,7 @@
     },
     {
      "letter": "c",
+     "design": "dashed",
      "header": "Werkstatt am Deich",
      "tag": "",
      "title": "",
@@ -240,6 +243,10 @@
     },
     {
      "letter": "d",
+     "design": "barhead",
+     "deco": {
+      "icon": "note"
+     },
      "header": "Musikschule Tonleiter",
      "tag": "",
      "title": "Nur Sie, die Lehrkraft und Ihr Instrument.",
@@ -252,6 +259,7 @@
     },
     {
      "letter": "e",
+     "design": "rules",
      "header": "Löffelweise",
      "tag": "",
      "title": "",
@@ -264,6 +272,7 @@
     },
     {
      "letter": "f",
+     "design": "pinned",
      "header": "Treffpunkt Mitte",
      "tag": "",
      "title": "Smartphone und Tablet verstehen – ab 60",
@@ -276,6 +285,7 @@
     },
     {
      "letter": "g",
+     "design": "corp",
      "header": "SPRACHINSTITUT LINGUA",
      "tag": "",
      "title": "Deutsch B2 – Vorbereitung auf die Prüfung",
@@ -288,6 +298,7 @@
     },
     {
      "letter": "h",
+     "design": "inverse",
      "header": "CODECLUB JUNIOR",
      "tag": "",
      "title": "",
@@ -300,6 +311,7 @@
     },
     {
      "letter": "i",
+     "design": "classified",
      "header": "MUSIKVEREIN HARMONIE",
      "tag": "KURSE",
      "title": "",
@@ -312,6 +324,7 @@
     },
     {
      "letter": "j",
+     "design": "mono",
      "header": "Physiopraxis Rückgrat",
      "tag": "",
      "title": "",

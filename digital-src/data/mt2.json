@@ -201,6 +201,7 @@
    "ads": [
     {
      "letter": "a",
+     "design": "tearoff",
      "header": "Tierheim Sonnenhof",
      "tag": "EHRENAMT",
      "title": "Wer geht mit unseren Hunden spazieren?",
@@ -213,6 +214,7 @@
     },
     {
      "letter": "b",
+     "design": "chalk",
      "header": "Grundschule am Wall",
      "tag": "",
      "title": "Lesepaten und Lesepatinnen gesucht",
@@ -225,6 +227,7 @@
     },
     {
      "letter": "c",
+     "design": "stripes",
      "header": "Freiwillige Feuerwehr Reinsdorf",
      "tag": "WIR BILDEN AUS",
      "title": "",
@@ -237,6 +240,10 @@
     },
     {
      "letter": "d",
+     "design": "logo",
+     "deco": {
+      "icon": "bus"
+     },
      "header": "Bürgerbus-Verein Reinsdorf",
      "tag": "",
      "title": "Fahrerinnen und Fahrer gesucht.",
@@ -249,6 +256,7 @@
     },
     {
      "letter": "e",
+     "design": "club",
      "header": "SV Grün-Weiß Reinsdorf",
      "tag": "",
      "title": "Kindertraining (6 bis 10 Jahre)",
@@ -261,6 +269,7 @@
     },
     {
      "letter": "f",
+     "design": "speech",
      "header": "Stadtteilzentrum Nord",
      "tag": "",
      "title": "Sprachcafé: Wer spricht mit?",
@@ -273,6 +282,10 @@
     },
     {
      "letter": "g",
+     "design": "hotel",
+     "deco": {
+      "icon": "columns"
+     },
      "header": "STADTMUSEUM REINSDORF",
      "tag": "",
      "title": "Führungen für Schulklassen",
@@ -285,6 +298,7 @@
     },
     {
      "letter": "h",
+     "design": "inverse",
      "header": "TAFEL REINSDORF",
      "tag": "",
      "title": "",
@@ -297,6 +311,7 @@
     },
     {
      "letter": "i",
+     "design": "dropcap",
      "header": "JUGENDFEUERWEHR REINSDORF",
      "tag": "",
      "title": "",
@@ -309,6 +324,10 @@
     },
     {
      "letter": "j",
+     "design": "mono",
+     "deco": {
+      "icon": "wrench"
+     },
      "header": "Repair-Café im Bürgerhaus",
      "tag": "",
      "title": "",

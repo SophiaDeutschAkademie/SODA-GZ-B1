@@ -201,6 +201,7 @@
    "ads": [
     {
      "letter": "a",
+     "design": "band",
      "header": "Studenten packen an",
      "tag": "UMZUGSHILFE",
      "title": "Umzug am Wochenende?",
@@ -213,6 +214,10 @@
     },
     {
      "letter": "b",
+     "design": "rounded",
+     "deco": {
+      "icon": "paw"
+     },
      "header": "Pfötchen · Tierbetreuung",
      "tag": "",
      "title": "",
@@ -225,6 +230,7 @@
     },
     {
      "letter": "c",
+     "design": "stamp",
      "header": "Schlüsselnotdienst Ruf",
      "tag": "24 STUNDEN · 7 TAGE",
      "title": "",
@@ -237,6 +243,10 @@
     },
     {
      "letter": "d",
+     "design": "barhead",
+     "deco": {
+      "icon": "plug"
+     },
      "header": "Elektro Hansen",
      "tag": "",
      "title": "Reparatur statt Neukauf.",
@@ -249,6 +259,7 @@
     },
     {
      "letter": "e",
+     "design": "notebook",
      "header": "Lernen mit Lena",
      "tag": "",
      "title": "Einzelunterricht bei Ihnen zu Hause",
@@ -261,6 +272,7 @@
     },
     {
      "letter": "f",
+     "design": "coupon",
      "header": "Blitzblank Reinigungsservice",
      "tag": "",
      "title": "Sauber, während Sie arbeiten",
@@ -273,6 +285,7 @@
     },
     {
      "letter": "g",
+     "design": "greyband",
      "header": "LERNSTUDIO ZENTRUM",
      "tag": "",
      "title": "Förderung in kleinen Gruppen",
@@ -285,6 +298,10 @@
     },
     {
      "letter": "h",
+     "design": "sign",
+     "deco": {
+      "icon": "key"
+     },
      "header": "SCHUH & SCHLÜSSEL BAR",
      "tag": "SOFORTSERVICE IM BAHNHOF",
      "title": "",
@@ -297,6 +314,7 @@
     },
     {
      "letter": "i",
+     "design": "classified",
      "header": "TEXTILPFLEGE WEISS · REINIGUNG UND ÄNDERUNGEN",
      "tag": "",
      "title": "",
@@ -309,6 +327,7 @@
     },
     {
      "letter": "j",
+     "design": "browser",
      "header": "Digital-Lotsen 60+",
      "tag": "",
      "title": "",

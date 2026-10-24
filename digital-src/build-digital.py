@@ -67,10 +67,11 @@ def main():
     data = data.replace("</", "<\\/")
     logo = base64.b64encode(open(os.path.join(HERE, "logo-small.png"), "rb").read()).decode()
     src = open(os.path.join(HERE, "template.html"), encoding="utf-8").read()
-    for ph in ("__EXAM_DATA__", "__LOGO_DATA_URI__"):
+    hand = base64.b64encode(open(os.path.join(HERE, "fonts", "caveat-600.woff"), "rb").read()).decode()
+    for ph in ("__EXAM_DATA__", "__LOGO_DATA_URI__", "__HAND_FONT__"):
         if src.count(ph) != 1:
             sys.exit(f"Platzhalter {ph} kommt {src.count(ph)}x vor")
-    html = src.replace("__EXAM_DATA__", data).replace("__LOGO_DATA_URI__", "data:image/png;base64," + logo)
+    html = src.replace("__EXAM_DATA__", data).replace("__LOGO_DATA_URI__", "data:image/png;base64," + logo).replace("__HAND_FONT__", hand)
     out = a.out or os.path.join(a.repo, "digital.html")
     open(out, "w", encoding="utf-8").write(html)
     print(f"geschrieben: {out} ({len(html.encode('utf-8')) / 1024:.0f} KB), Modelltests: {', '.join(sorted(tests))}, build {build}")
